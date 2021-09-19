@@ -22,8 +22,8 @@ html, body {
 
 }
 
-body {
-    background-image: url(../images/smartphone-portrait/smartphone1.jpg) no-repeat center center fixed;
+html {
+    background: url(../images/smartphone-portrait/smartphone1.jpg) no-repeat center center fixed;
     background-size:cover;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -33,7 +33,7 @@ body {
 
 @media screen and (max-width: 767px) {
     body {
-        background-image: url(../images/smartphone-landscape/landscape1.jpg) no-repeat center center fixed;
+        background: url(../images/smartphone-landscape/landscape1.jpg) no-repeat center center fixed;
         background-size:cover;
         -webkit-background-size:cover;
         -moz-background-size:cover;
@@ -45,7 +45,7 @@ body {
 
 @media screen and (max-width: 991px) {
     body {
-        background-image: url(../images/tablet-desktop/Tablet1.jpg) no-repeat center center fixed;
+        background: url(../images/tablet-desktop/Tablet1.jpg) no-repeat center center fixed;
         background-size:cover;
         -webkit-background-size:cover;
         -moz-background-size:cover;
@@ -57,7 +57,7 @@ body {
 
 @media screen and (max-width: 1199px) {
     body {
-        background-image: url(../images/tablet-desktop/Tablet1.jpg) no-repeat center center fixed;
+        background: url(../images/tablet-desktop/Tablet1.jpg) no-repeat center center fixed;
         background-size:cover;
         -webkit-background-size:cover;
         -moz-background-size:cover;
@@ -69,7 +69,7 @@ body {
 
 @media screen and (min-width: 1199px) {
     body {
-        background-image: url(../images/tablet-desktop/Tablet1.jpg) no-repeat center center fixed;
+        background: url(../images/tablet-desktop/Tablet1.jpg) no-repeat center center fixed;
         background-size:cover;
         -webkit-background-size:cover;
         -moz-background-size:cover;
