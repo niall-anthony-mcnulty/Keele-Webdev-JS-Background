@@ -1,3 +1,60 @@
-div {
-    text-align:center;
+
+html, body {
+    height:100%;
+    font-family: 'Bellota', cursive; 
+    font-weight: bold;
+    font-style: italic;
+    color:azure;
+    width: auto!important; overflow-x: hidden!important;
+    font-size:1.5rem;
+
+    }
+    
+
+
+.row {
+    display:flex;
+    flex-direction: row;
+}
+
+.message {
+    text-align: center;
+
+}
+
+body {
+    background-image: url(/Users/Niall-McNulty/Desktop/Module\ 4\ Web\ Technologies\ &\ Design/Week2/CODE/Keele-Webdev-JS-Background/images/smartphone-portrait/smartphone1.jpg);
+    
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-image: url(/Users/Niall-McNulty/Desktop/Module\ 4\ Web\ Technologies\ &\ Design/Week2/CODE/Keele-Webdev-JS-Background/images/smartphone-landscape/landscape1.jpg);
+        
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    body {
+        background-image: url(/Users/Niall-McNulty/Desktop/Module\ 4\ Web\ Technologies\ &\ Design/Week2/CODE/Keele-Webdev-JS-Background/images/tablet-desktop/Tablet1.jpg);
+
+    }
+    
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+        background-image: url(/Users/Niall-McNulty/Desktop/Module\ 4\ Web\ Technologies\ &\ Design/Week2/CODE/Keele-Webdev-JS-Background/images/tablet-desktop/Tablet1.jpg);
+        
+    }
+    
+}
+
+@media screen and (min-width: 1199px) {
+    body {
+        background-image: url(/Users/Niall-McNulty/Desktop/Module\ 4\ Web\ Technologies\ &\ Design/Week2/CODE/Keele-Webdev-JS-Background/images/tablet-desktop/Tablet1.jpg);
+        
+    }
+    
 }
