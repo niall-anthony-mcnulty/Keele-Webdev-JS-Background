@@ -6,6 +6,8 @@ html, body {
     font-style: italic;
     color:azure;
     font-size:1.5rem;
+    width: auto!important; 
+    overflow-x: hidden!important;
 
     }
     
@@ -31,6 +33,7 @@ html, body {
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
+        font-size: 0.8rem;
     }
 }
 
@@ -44,6 +47,7 @@ html, body {
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
+        font-size: 1rem;
         
     }
     
@@ -59,6 +63,7 @@ html, body {
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
+        font-size:1.2rem
 
     }
     
@@ -74,6 +79,7 @@ html, body {
             -webkit-background-size:cover;
             -moz-background-size:cover;
             -o-background-size:cover;
+            font-size:1.5rem
         
     }
     
