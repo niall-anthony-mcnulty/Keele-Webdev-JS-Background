@@ -21,63 +21,50 @@ html, body {
 
 }
 
-body {
-    
-    background-repeat: no-repeat; 
-    background-position: center;
-    position:relative;
-    background-size:cover;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    
-}
-
-
-@media (max-width: 400px) {
+@media only screen and (max-width: 500px) and (min-width: 0px) {
     .bg-image {
         background: url(../images/smartphone-portrait/smartphone3.jpg);
-            background-repeat: no-repeat; 
-            background-position: center;
-            position:relative;
-            background-size:cover;
-            -webkit-background-size:cover;
-            -moz-background-size:cover;
-            -o-background-size:cover;
+        background-repeat: no-repeat; 
+        background-position: center;
+        position:relative;
+        background-size:cover;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
     }
 }
 
-@media (max-width: 599px) {
+@media screen and (max-width: 650px) and (min-width: 501px) {
     .bg-image {
         background-image: url(../images/smartphone-landscape/landscape1.jpg);
-            background-repeat: no-repeat; 
-            background-position: center;
-            position:relative;
-            background-size:cover;
-            -webkit-background-size:cover;
-            -moz-background-size:cover;
-            -o-background-size:cover;
+        background-repeat: no-repeat; 
+        background-position: center;
+        position:relative;
+        background-size:cover;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
         
     }
     
 }
 
-@media (min-width: 600px) {
+@media screen and (min-width: 651px) and (max-width:900px) {
     .bg-image {
         background: url(../images/tablet-desktop/Tablet2.jpg) ;
-            background-repeat: no-repeat; 
-            background-position: center;
-            position:relative;
-            background-size:cover;
-            -webkit-background-size:cover;
-            -moz-background-size:cover;
-            -o-background-size:cover;
+        background-repeat: no-repeat; 
+        background-position: center;
+        position:relative;
+        background-size:cover;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
 
     }
     
 }
 
-@media (max-width: 900px) {
+@media screen and (min-width: 901px) and (max-width:4000px) {
     .bg-image {
         background: url(../images/tablet-desktop/Tablet3.jpg) ;
             background-repeat: no-repeat; 
