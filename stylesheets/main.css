@@ -33,61 +33,60 @@ body {
     
 }
 
-@media (max-width: 767px) {
-    body {
+
+@media (max-width: 400px) {
+    .bg-image {
+        background: url(../images/smartphone-portrait/smartphone3.jpg);
+            background-repeat: no-repeat; 
+            background-position: center;
+            position:relative;
+            background-size:cover;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
+    }
+}
+
+@media (max-width: 599px) {
+    .bg-image {
         background-image: url(../images/smartphone-landscape/landscape1.jpg);
-        background-repeat: no-repeat; 
-        background-position: center;
-        position:relative;
-        background-size:cover;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
+            background-repeat: no-repeat; 
+            background-position: center;
+            position:relative;
+            background-size:cover;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
         
     }
     
 }
 
-@media (max-width: 991px) {
-    body {
-        background: url(../images/tablet-desktop/Tablet1.jpg) ;
-        background-repeat: no-repeat; 
-        background-position: center;
-        position:relative;
-        background-size:cover;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
+@media (min-width: 600px) {
+    .bg-image {
+        background: url(../images/tablet-desktop/Tablet2.jpg) ;
+            background-repeat: no-repeat; 
+            background-position: center;
+            position:relative;
+            background-size:cover;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
 
     }
     
 }
 
-@media (max-width: 1199px) {
-    body {
-        background: url(../images/tablet-desktop/Tablet1.jpg) ;
-    background-repeat: no-repeat; 
-    background-position: center;
-    position:relative;
-    background-size:cover;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-        
-    }
-    
-}
-
-@media (min-width: 1199px) {
-    body {
-        background: url(../images/tablet-desktop/Tablet1.jpg) ;
-        background-repeat: no-repeat; 
-        background-position: center;
-        position:relative;
-        background-size:cover;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
+@media (max-width: 900px) {
+    .bg-image {
+        background: url(../images/tablet-desktop/Tablet3.jpg) ;
+            background-repeat: no-repeat; 
+            background-position: center;
+            position:relative;
+            background-size:cover;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
         
     }
     
