@@ -34,6 +34,8 @@ html, body {
         -moz-background-size:cover;
         -o-background-size:cover;
         font-size: 0.8rem;
+        text-shadow: 1px 1px 0px salmon;
+
     }
 }
 
@@ -48,6 +50,7 @@ html, body {
         -moz-background-size:cover;
         -o-background-size:cover;
         font-size: 1rem;
+        text-shadow: 1px 1px 0px black;
         
     }
     
@@ -63,7 +66,9 @@ html, body {
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
-        font-size:1.2rem
+        font-size:1.2rem;
+        color: salmon;
+        text-shadow: 1px 1px 0px red;
 
     }
     
@@ -79,7 +84,8 @@ html, body {
             -webkit-background-size:cover;
             -moz-background-size:cover;
             -o-background-size:cover;
-            font-size:1.5rem
+            font-size:1.5rem;
+            text-shadow: 1px 1px 1px #49fb35;
         
     }
     
