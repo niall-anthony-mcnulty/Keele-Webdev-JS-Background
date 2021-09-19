@@ -5,7 +5,6 @@ html, body {
     font-weight: bold;
     font-style: italic;
     color:azure;
-    width: auto!important; overflow-x: hidden!important;
     font-size:1.5rem;
 
     }
@@ -22,8 +21,11 @@ html, body {
 
 }
 
-html {
-    background: url(../images/smartphone-portrait/smartphone1.jpg) no-repeat center center fixed;
+body {
+    
+    background-repeat: no-repeat; 
+    background-position: center;
+    position:relative;
     background-size:cover;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -31,9 +33,12 @@ html {
     
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
     body {
-        background: url(../images/smartphone-landscape/landscape1.jpg) no-repeat center center fixed;
+        background-image: url(../images/smartphone-landscape/landscape1.jpg);
+        background-repeat: no-repeat; 
+        background-position: center;
+        position:relative;
         background-size:cover;
         -webkit-background-size:cover;
         -moz-background-size:cover;
@@ -43,9 +48,12 @@ html {
     
 }
 
-@media screen and (max-width: 991px) {
+@media (max-width: 991px) {
     body {
-        background: url(../images/tablet-desktop/Tablet1.jpg) no-repeat center center fixed;
+        background: url(../images/tablet-desktop/Tablet1.jpg) ;
+        background-repeat: no-repeat; 
+        background-position: center;
+        position:relative;
         background-size:cover;
         -webkit-background-size:cover;
         -moz-background-size:cover;
@@ -55,21 +63,27 @@ html {
     
 }
 
-@media screen and (max-width: 1199px) {
+@media (max-width: 1199px) {
     body {
-        background: url(../images/tablet-desktop/Tablet1.jpg) no-repeat center center fixed;
-        background-size:cover;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
+        background: url(../images/tablet-desktop/Tablet1.jpg) ;
+    background-repeat: no-repeat; 
+    background-position: center;
+    position:relative;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
         
     }
     
 }
 
-@media screen and (min-width: 1199px) {
+@media (min-width: 1199px) {
     body {
-        background: url(../images/tablet-desktop/Tablet1.jpg) no-repeat center center fixed;
+        background: url(../images/tablet-desktop/Tablet1.jpg) ;
+        background-repeat: no-repeat; 
+        background-position: center;
+        position:relative;
         background-size:cover;
         -webkit-background-size:cover;
         -moz-background-size:cover;
