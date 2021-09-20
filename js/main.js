@@ -66,7 +66,7 @@ $(document).ready(function(){
 
 
     $('.author').text('-' + splitString[1]);
-    $('.author').fadeOut(5000);
+    $('.author').fadeTo(5000, 0);
 
 
 
