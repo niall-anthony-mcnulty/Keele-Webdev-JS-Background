@@ -39,7 +39,7 @@ p {
         -moz-background-size:cover;
         -o-background-size:cover;
         font-size: 0.8rem;
-        text-shadow: 0px 2px 2px salmon;
+        text-shadow: 4px 4px 4px rgb(243, 67, 47);
 
     }
 }
@@ -54,7 +54,7 @@ p {
         -moz-background-size:cover;
         -o-background-size:cover;
         font-size: 1rem;
-        text-shadow: 0px 2px 2px salmon;
+        text-shadow: 4px 4px 4px rgb(243, 67, 47);
         
     }
     
@@ -70,7 +70,7 @@ p {
         -moz-background-size:cover;
         -o-background-size:cover;
         font-size:1.2rem;
-        text-shadow: 0px 2px 2px salmon;
+        text-shadow: 4px 4px 4px rgb(243, 67, 47);
 
     }
     
@@ -87,7 +87,7 @@ p {
             -moz-background-size:cover;
             -o-background-size:cover;
             font-size:1.5rem;
-            text-shadow:0px 2px 2px salmon;
+            text-shadow:4px 4px 4px rgb(243, 67, 47);
         
     }
     

@@ -46,7 +46,7 @@ $(document).ready(function(){
         'To be or not to be? That is the question - William Shakespeare',
         'Fortune favours the bold - Terence ',
         'I came, I saw, I conquered - Julius Caesar',
-        'Knowledge is power - Sir Francie Bacon',
+        'Knowledge is power - Sir Francis Bacon',
         "Have no fear of perfection, you'll never reach it - Salvador Dali"]
    
 
@@ -56,17 +56,27 @@ $(document).ready(function(){
     var selectQuotes = quotes[Math.floor(Math.random() * quotes.length )];
     var splitString = selectQuotes.split('-');
 
-    $('p').text(splitString[0]);
+    $(document).ready(function(){
+        $('#hide').text(splitString[0]).hide();
+        $('#hide').delay(1000);
+        $('#hide').fadeTo(3500,1);
+        
     
     
-    /*setTimeout(function(){
-        $('p').text(selectQuotes);
-    
-    }, 4000); */
+    });
+   
 
+    $(document).ready(function(){
+        $('#author').text("-" + splitString[1]).hide();
+        $('#author').delay(1000);
+        $('#author').fadeTo(3500,1);
+        $('#author').delay(1000);
+        $('#author').fadeTo(3500,0)
 
-    $('.author').text('-' + splitString[1]);
-    $('.author').fadeTo(5000, 0);
+        
+        
+        });
+    
 
 
 
