@@ -25,7 +25,6 @@ html, body {
 
 @media only screen and (max-width: 500px) and (min-width: 0px) {
     .bg-image-smartphone {
-        
         background-repeat: no-repeat; 
         background-position: center;
         position:relative;
@@ -41,7 +40,6 @@ html, body {
 
 @media screen and (max-width: 650px) and (min-width: 501px) {
     .bg-image-landscape {
-        
         background-repeat: no-repeat; 
         background-position: center;
         position:relative;
@@ -58,7 +56,6 @@ html, body {
 
 @media screen and (min-width: 651px) and (max-width:900px) {
     .bg-image-tablet {
-        
         background-repeat: no-repeat; 
         background-position: center;
         position:relative;
@@ -75,15 +72,16 @@ html, body {
 
 @media screen and (min-width: 901px) and (max-width:4000px) {
     .bg-image-desktop {
-    
-        background-position: center;
-        position:relative;
-        background-size:cover;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        font-size:1.5rem;
-        text-shadow: 1px 1px 1px salmon;
+        
+            background-repeat: no-repeat; 
+            background-position: center;
+            position:relative;
+            background-size:cover;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
+            font-size:1.5rem;
+            text-shadow: 1px 1px 1px salmon;
         
     }
     
