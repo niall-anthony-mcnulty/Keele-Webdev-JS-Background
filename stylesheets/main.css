@@ -20,8 +20,14 @@ html, body {
 
 .message {
     text-align: center;
+}
+
+p {
+    text-align: center;
 
 }
+
+
 
 @media only screen and (max-width: 500px) and (min-width: 0px) {
     .bg-image-smartphone {
@@ -86,3 +92,35 @@ html, body {
     }
     
 }
+
+
+
+@media only screen and (max-width: 500px) and (min-width: 0px) {
+    .bg-image-smartphone .author {
+        font-size: 0.6rem;
+
+    }
+}
+
+@media screen and (max-width: 650px) and (min-width: 501px) {
+    .bg-image-landscape  .author {
+        font-size: 0.8rem;
+
+        
+    }
+    
+}
+
+@media screen and (min-width: 651px) and (max-width:900px) {
+    .bg-image-tablet .author{
+        font-size:1rem;
+
+    }
+    
+}
+
+
+@media screen and (min-width: 901px) and (max-width:4000px) {
+    .bg-image-desktop .author {
+            font-size:1.2rem; 
+}}
