@@ -67,7 +67,6 @@ html, body {
         -moz-background-size:cover;
         -o-background-size:cover;
         font-size:1.2rem;
-        color: salmon;
         text-shadow: 1px 1px 0px salmon;
 
     }
@@ -76,7 +75,7 @@ html, body {
 
 @media screen and (min-width: 901px) and (max-width:4000px) {
     .bg-image-desktop {
-        
+    
         background-position: center;
         position:relative;
         background-size:cover;
