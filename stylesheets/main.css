@@ -12,7 +12,6 @@ html, body {
     }
     
 
-
 .row {
     display:flex;
     flex-direction: row;
@@ -20,6 +19,7 @@ html, body {
 
 .message {
     text-align: center;
+    
 }
 
 p {
@@ -124,3 +124,4 @@ p {
     .bg-image-desktop .author {
             font-size:1.2rem; 
 }}
+

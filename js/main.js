@@ -65,8 +65,8 @@ $(document).ready(function(){
     }, 4000); */
 
 
-    $('span').text('-' + splitString[1]);
-    $('span').fadeOut(5000);
+    $('.author').text('-' + splitString[1]);
+    $('.author').fadeOut(5000);
 
 
 
