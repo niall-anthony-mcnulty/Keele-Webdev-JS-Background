@@ -7,10 +7,10 @@ $(document).ready(function(){
         './images/smartphone-portrait/smartphone5.jpg'];
 
     selectPortraitImages = images_portrait[Math.floor(Math.random() * images_portrait.length)];
-    $('.bg-image-smartphone').css({'background-image':'url(' + selectPortraitImages + ')'}) });
+    $('.bg-image-smartphone').css({'background-image':'url(' + selectPortraitImages + ')'});
         
 
-$(document).ready(function(){
+
 
     var images_landscape = ['./images/smartphone-landscape/landscape1.jpg',
         './images/smartphone-landscape/landscape2.jpg',
@@ -19,9 +19,9 @@ $(document).ready(function(){
         './images/smartphone-landscape/landscape5.jpg' ];
 
     selectLandscapeImages = images_landscape[Math.floor(Math.random() * images_landscape.length)];
-    $('.bg-image-landscape').css({'background-image':'url(' + selectLandscapeImages + ')'}); });
+    $('.bg-image-landscape').css({'background-image':'url(' + selectLandscapeImages + ')'});
 
-$(document).ready(function(){   
+
     var images_tablet = ['./images/tablet/tablet1.jpg',
         './images/tablet/tablet2.jpg',
         './images/tablet/tablet3.jpg',
@@ -29,9 +29,9 @@ $(document).ready(function(){
         './images/tablet/tablet5.jpg'];
 
     selectTabletImages = images_tablet[Math.floor(Math.random() * images_tablet.length)];
-    $('.bg-image-tablet').css({'background-image':'url(' + selectTabletImages + ')'}); });
+    $('.bg-image-tablet').css({'background-image':'url(' + selectTabletImages + ')'});
 
-$(document).ready(function(){   
+
     var images_desktop = [
         './images/desktop/desktop1.jpg',
         './images/desktop/desktop2.jpg',
