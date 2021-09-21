@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "debug",
+            "request": "launch",
+            "url": "file:///Users/Niall-McNulty/Desktop/Module%204%20Web%20Technologies%20&%20Design/Week2/CODE/Keele-Webdev-JS-Background/index.html"
+        }
+    ]
+}
